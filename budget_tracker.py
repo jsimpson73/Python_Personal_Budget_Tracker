@@ -108,7 +108,7 @@ class BudgetTracker:
                 print("Invalid amount!")
         
         self.save_budget_limits()
-        print("\n✓ Budget setup complete!")
+        print("\n Budget setup complete!")
     
     def add_expense(self):
         """Add a new expense"""
@@ -282,7 +282,7 @@ class BudgetTracker:
                     limit
                 ])
         
-        print(f"✓ Data exported to {filename}")
+        print(f" Data exported to {filename}")
     
     def run(self):
         """Main program loop"""
